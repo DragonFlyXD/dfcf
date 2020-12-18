@@ -21,4 +21,4 @@ DFC 前端工程，基于 Vue3 + Vite + Ant-design-vue2 + Typescript4。
 
 ## 其他
 
--   Git  提交规范，参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范
+-   Git 提交规范，参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范
