@@ -1,0 +1,16 @@
+{
+    "include": ["./**/*.ts"],
+    "compilerOptions": {
+        "jsx": "preserve",
+        "target": "ESNext",
+        "module": "ESNext",
+        "sourceMap": true,
+        "outDir": "./dist",
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true
+    }
+}
