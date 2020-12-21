@@ -1,5 +1,3 @@
 import type { UserConfig } from 'vite'
 
-const viteConfig: UserConfig = {
-    
-}
+const viteConfig: UserConfig = {}
