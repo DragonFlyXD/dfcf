@@ -69,12 +69,13 @@ yarn dev
 
 ### Dev 依赖
 
--   [typescript4](https://github.com/microsoft/TypeScript)
--   [eslint](https://github.com/eslint/eslint)
--   [prettier](https://github.com/prettier/prettier)
+-   [sass](https://github.com/sass/sass)
 -   [husky](https://github.com/typicode/husky/tree/next)
 -   [lint-staged](https://github.com/okonet/lint-staged)
 -   [commitlint](https://github.com/conventional-changelog/commitlint)
+-   [typescript4](https://github.com/microsoft/TypeScript)
+-   [prettier](https://github.com/prettier/prettier)
+-   [eslint](https://github.com/eslint/eslint)
 -   [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
 -   [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
 -   [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
