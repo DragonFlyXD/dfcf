@@ -28,10 +28,10 @@ yarn dev
 
 ### 主要依赖
 
--   [vue3](https://github.com/vuejs/vue)
+-   [vue3](https://github.com/vuejs/vue-next)
 -   [vite](https://github.com/vitejs/vite)
--   [vue-router4](https://github.com/vuejs/vue-router)
--   [vuex4](https://github.com/vuejs/vuex)
+-   [vue-router4](https://github.com/vuejs/vue-router-next)
+-   [vuex4](https://github.com/vuejs/vuex/tree/4.0)
 -   [ant-design-vue2](https://github.com/vueComponent/ant-design-vue)
 -   [axios](https://github.com/axios/axios)
 -   [dayjs](https://github.com/iamkun/dayjs)

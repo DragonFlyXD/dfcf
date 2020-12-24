@@ -18,6 +18,9 @@ const config: UserConfig = {
             target: 'http://localhost:8081',
             changeOrigin: true
         }
+    },
+    optimizeDeps: {
+        include: ['ant-design-vue/es/locale/zh_CN', 'ant-design-vue/es/locale/en_US', '@ant-design/icons-vue']
     }
 }
 
