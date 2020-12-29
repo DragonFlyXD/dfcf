@@ -13,5 +13,9 @@
         "plugin:@typescript-eslint/recommended",
         "prettier/@typescript-eslint",
         "plugin:prettier/recommended"
-    ]
+    ],
+    "rules": {
+        "@typescript-eslint/no-empty-function": "off",
+        "vue/html-indent": ["error", 4]
+    }
 }

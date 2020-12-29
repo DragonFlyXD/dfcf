@@ -1,0 +1,46 @@
+{
+    "Print to Javascript Comment": {
+        "prefix": "jsc",
+        "body": [
+            "/**",
+            " * @description ${1}",
+            " * @author longfei.chen",
+            " * @date ${CURRENT_YEAR}.${CURRENT_MONTH}.${CURRENT_DATE}",
+            " * @param {${2}} ${3}",
+            " * @returns {${4}} ${5}",
+            " */"
+        ],
+        "description": "Javascript Comment"
+    },
+    "Print to Vue Template": {
+        "prefix": "vue",
+        "body": [
+            "<template>",
+            "    <div class=\"${1}\"></div>",
+            "</template>",
+            "<script lang=\"ts\">",
+            "import { defineComponent } from 'vue'",
+            "",
+            "export default defineComponent({",
+            "    name: '${2}',",
+            "    components: {},",
+            "    props: {},",
+            "    setup() {",
+            "        return {}",
+            "    },",
+            "    data() {",
+            "        return {}",
+            "    },",
+            "    computed: {},",
+            "    watch: {},",
+            "    created() {},",
+            "    mounted() {},",
+            "    methods: {}",
+            "})",
+            "</script>",
+            "<style lang=\"scss\" scoped></style>",
+            ""
+        ],
+        "description": "Vue Template"
+    }
+}

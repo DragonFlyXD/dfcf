@@ -69,6 +69,19 @@ yarn dev
 
 注释规范，参考 [JSDoc Block Tags](https://jsdoc.app/#block-tags)
 
+> 在本项目中，输入触发词 jsc 显示注释模板。
+
+```
+/**
+  * @description 判断数据类型
+  * @author longfei.chen
+  * @date 2020.12.29
+  * @param {unknown} val 判断数据
+  * @param {string} type 数据类型
+  * @returns {boolean} 判断结果
+  */
+```
+
 ## 其他
 
 列举待办事项、Dev 依赖

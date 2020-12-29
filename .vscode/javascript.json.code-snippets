@@ -1,0 +1,15 @@
+{
+    "Print to Javascript Comment": {
+        "prefix": "jsc",
+        "body": [
+            "/**",
+            " * @description ${1}",
+            " * @author longfei.chen",
+            " * @date ${CURRENT_YEAR}.${CURRENT_MONTH}.${CURRENT_DATE}",
+            " * @param {${2}} ${3}",
+            " * @returns {${4}} ${5}",
+            " */"
+        ],
+        "description": "Javascript Comment"
+    }
+}
