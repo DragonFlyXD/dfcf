@@ -4,6 +4,7 @@
 - [规范](#规范)
   - [Git 提交规范](#git-提交规范)
   - [书写顺序](#书写顺序)
+  - [注释](#注释)
 - [其他](#其他)
   - [待办事项](#待办事项)
   - [Dev 依赖](#dev-依赖)
@@ -40,7 +41,7 @@ yarn dev
 
 ## 规范
 
-代码提交、书写的规范
+代码提交、书写顺序、注释的规范
 
 ### Git 提交规范
 
@@ -63,6 +64,10 @@ yarn dev
 -   vue，参考 [vue 官网](https://v3.vuejs.org/style-guide/#priority-c-rules-recommended-minimizing-arbitrary-choices-and-cognitive-overhead)
 -   css，参考 [腾讯 alloy](http://alloyteam.github.io/CodeGuide/#css-declaration-order)
 -   html，参考 [腾讯 alloy](http://alloyteam.github.io/CodeGuide/#html-attribute-order)
+
+### 注释
+
+注释规范，参考 [JSDoc Block Tags](https://jsdoc.app/#block-tags)
 
 ## 其他
 

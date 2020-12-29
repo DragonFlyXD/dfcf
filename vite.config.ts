@@ -1,4 +1,4 @@
-import { UserConfig } from 'vite'
+import type { UserConfig } from 'vite'
 import { resolve } from 'path'
 
 const config: UserConfig = {
