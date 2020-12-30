@@ -4,7 +4,8 @@
 - [规范](#规范)
   - [Git 提交规范](#git-提交规范)
   - [书写顺序](#书写顺序)
-  - [注释](#注释)
+  - [CSS 命名](#css-命名)
+  - [代码注释](#代码注释)
 - [其他](#其他)
   - [待办事项](#待办事项)
   - [Dev 依赖](#dev-依赖)
@@ -42,7 +43,7 @@ yarn dev
 
 ## 规范
 
-代码提交、书写顺序、注释的规范
+代码提交、书写风格的规范
 
 ### Git 提交规范
 
@@ -66,11 +67,15 @@ yarn dev
 -   css，参考 [腾讯 alloy](http://alloyteam.github.io/CodeGuide/#css-declaration-order)
 -   html，参考 [腾讯 alloy](http://alloyteam.github.io/CodeGuide/#html-attribute-order)
 
-### 注释
+### CSS 命名
+
+命名规则：模块名\_\_元素名--修饰符名，参考 [BEM](http://getbem.com/naming/)
+
+### 代码注释
 
 注释规范，参考 [JSDoc Block Tags](https://jsdoc.app/#block-tags)
 
-> 在本项目中，输入触发词 jsc 显示注释模板。
+> 在本项目中，输入触发词 jsc 显示注释模板
 
 ```
 /**
