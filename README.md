@@ -38,6 +38,7 @@ yarn dev
 -   [axios](https://github.com/axios/axios)
 -   [dayjs](https://github.com/iamkun/dayjs)
 -   [nprogress](https://github.com/rstacruz/nprogress)
+-   [lodash-es](https://github.com/lodash/lodash/tree/4.17.20-es)
 
 ## 规范
 
