@@ -1,10 +1,12 @@
 import type { App } from 'vue'
 import { RouteRecordRaw, createRouter, createWebHashHistory } from 'vue-router'
+import Layout from '/@/layout/index.vue'
 
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        name: 'Home'
+        name: 'Home',
+        component: Layout
     }
 ]
 
@@ -38,6 +40,10 @@ const router = createRouter({
  */
 export function setupRouter(app: App): void {
     app.use(router)
+
+    router.isReady().then(() => {
+        app.mount('#app')
+    })
 }
 
 export default router
