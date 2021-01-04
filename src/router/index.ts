@@ -4,8 +4,7 @@ import { RouteRecordRaw, createRouter, createWebHashHistory } from 'vue-router'
 const routes: RouteRecordRaw[] = [
     {
         path: '/',
-        name: 'Home',
-        redirect: '/'
+        name: 'Home'
     }
 ]
 
@@ -32,9 +31,9 @@ const router = createRouter({
 })
 
 /**
- * @description 初始化 router
+ * @description 初始化路由
  * @author longfei.chen
- * @date 2020-12-25
+ * @date 2020.12.25
  * @param {App} app vue app
  */
 export function setupRouter(app: App): void {

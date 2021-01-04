@@ -1,12 +1,8 @@
 import { createApp } from 'vue'
-import { setupRouter } from './router'
-import { setupStore } from './store'
+import { setup } from './setup'
 import App from './App.vue'
 
 const app = createApp(App)
 
-// 初始化 router
-setupRouter(app)
-
-// 初始化 store
-setupStore(app)
+// 初始化工程
+setup(app)
