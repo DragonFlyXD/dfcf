@@ -40,6 +40,7 @@ yarn dev
 -   [dayjs](https://github.com/iamkun/dayjs)
 -   [nprogress](https://github.com/rstacruz/nprogress)
 -   [lodash-es](https://github.com/lodash/lodash/tree/4.17.20-es)
+-   [normalize.css](https://github.com/necolas/normalize.css)
 
 ## 规范
 

@@ -3,6 +3,8 @@ import { setupRouter } from '/@/router'
 import { setupStore } from '/@/store'
 import { setupAntd } from './modules/antd'
 
+import 'normalize.css/normalize.css'
+
 /**
  * @description 初始化工程
  * @author longfei.chen
